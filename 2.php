@@ -139,24 +139,8 @@ function importXml($a)
         $connect->query("INSERT INTO `a_ price` (`Товар`, `Тип`, `Цена`) VALUES ('{$id}', '{$base}', '{$coin}');");    
       }
             
-
-         
-      
+ 
   }
-
-  foreach ($s as $val)
-  {
-    //$connect->query("INSERT INTO `a_property` (`Товар`, `Значение`, `Свойства`) VALUES ('Бумага А4', '100, 150', 'Плотность  Белизна ')");
-  
-
-    echo "<br>", $val['Значение'];
-
-
-  //break;
-  }
-  
-  
-
 
 
 }
