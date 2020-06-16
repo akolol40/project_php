@@ -153,7 +153,7 @@ function importXml($a)
 
 }
 
-//importXml(__DIR__ .'/1.xml');
+importXml(__DIR__ .'/1.xml');
 
 
 
