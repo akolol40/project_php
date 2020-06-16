@@ -164,7 +164,7 @@ function importXml($a)
 
 function exportXml($a, $b)
 {
-  $file = fopen("2.txt", "w");
+  $file = fopen("2.xml", "w");
   $text_mass = [];
 
   $xmlstr = file_get_contents($a, 'r') or die("не удалось открыть файл");
